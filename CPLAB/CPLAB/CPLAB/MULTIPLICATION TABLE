@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int i=1,j,x;
+ printf("enter the n ,j values");
+ scanf("%d%d",&x,&j);
+ for(i=1,j;i<=x;i++)
+ printf("%d*%d=%d\n",i,j,i*j);
+ return 0;
+}
